@@ -1,7 +1,7 @@
-id: dns
-name: Délégation au numérique en santé
-tagline: ''
-description: ''
+id: sante-numerique-fr
+name: Santé numérique France
+tagline: Services numériques de santé utilisés en France
+description: La collection Santé numérique France est dédiée au suivi des conditions d'utilisation des principales plateformes et applications de santé numérique utilisées en France.
 dataset: https://github.com/OpenTermsArchive/dns-versions/releases
 declarations: https://github.com/OpenTermsArchive/dns-declarations
 versions: https://github.com/OpenTermsArchive/dns-versions
@@ -20,5 +20,10 @@ governance:
     logo: https://opentermsarchive.org/images/logo/logo-open-terms-archive-black.png
     roles:
       - administrator
-      - curator
       - maintainer
+  Ministère chargé de la santé:
+    url: https://sante.gouv.fr
+    logo: https://sante.gouv.fr/IMG/logo/logo-travail-emploi4.png?1735229028
+    roles:
+      - analyst
+      - curator
